@@ -4,7 +4,7 @@
 **Type:** Production-Grade RAG System with OpenAI GPT Integration  
 **Purpose:** ML Engineering Portfolio & Singapore Market Intelligence
 
-**🔗 [Try Live Demo](https://singapore-smart-nation-rag.streamlit.app)** - Experience real AI-powered document search!
+**🔗 [Try Live Demo](https://singapore-smart-nation-rag.streamlit.app/)** - Experience real AI-powered document search!
 
 ## ⚡ **Advanced RAG System**
 
