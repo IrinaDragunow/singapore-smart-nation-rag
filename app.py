@@ -1,3 +1,12 @@
+# ChromaDB Streamlit Cloud Fix (only for Linux deployment)
+try:
+    __import__('pysqlite3')
+    import sys
+    sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+except ImportError:
+    # Running locally (Mac/Windows) - use built-in sqlite3
+    pass
+
 import streamlit as st
 import chromadb
 import pandas as pd
